@@ -1,0 +1,2369 @@
+2014-09-18 04:03:30 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [D:\projetos\caixa\app\Controller\AppController.php, line 24]
+2014-09-18 04:03:30 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-18 04:03:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:30 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [D:\projetos\caixa\app\Controller\AppController.php, line 24]
+2014-09-18 04:03:30 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-18 04:03:30 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [D:\projetos\caixa\app\Controller\AppController.php, line 24]
+2014-09-18 04:03:30 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [D:\projetos\caixa\app\Controller\AppController.php, line 24]
+2014-09-18 04:03:30 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /caixa/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-18 04:03:30 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /caixa/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 24, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-18 04:03:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:03:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:18:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:18:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:18:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:18:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:19:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0/css/
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/f
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:20:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-18 04:22:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/js/js/sb-admin-2.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:10:39 Error: [MissingActionException] Action DashboardController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'home',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-19 01:10:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:10:59 Error: [MissingTableException] Table customers_schedules for model CustomersSchedule was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'customers_schedules',
+  'class' => 'CustomersSchedule',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('customers_sched...')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(3066): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\Model\Model.php(2979): Model->_findCount('before', Array)
+#3 D:\projetos\caixa\lib\Cake\Model\Model.php(2914): Model->buildQuery('count', Array)
+#4 D:\projetos\caixa\app\Controller\DashboardController.php(22): Model->find('count', Array)
+#5 [internal function]: DashboardController->admin_home()
+#6 D:\projetos\caixa\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DashboardController), Array)
+#7 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#9 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-19 01:10:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:12:57 Error: [MissingHelperException] Helper class SiteHelper could not be found.
+Exception Attributes: array (
+  'class' => 'SiteHelper',
+  'plugin' => false,
+)
+Request URL: /caixa/admin/users/login
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(886): HelperCollection->load('Site', Array)
+#1 D:\projetos\caixa\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 D:\projetos\caixa\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#3 D:\projetos\caixa\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-09-19 01:12:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:17 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /caixa/admin/users/login
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('users')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('User', Array)
+#5 D:\projetos\caixa\app\View\Users\admin_login.ctp(52): BootstrapFormHelper->create('User', Array)
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:50 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:50 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:50 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:50 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:50 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:50 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:51 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:51 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:51 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:51 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:51 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:51 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:56 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:56 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:56 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:56 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:56 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:56 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:13:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:54 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:55 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:55 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:55 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:55 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:14:57 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:01 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:15:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:04 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:08 Error: [MissingTableException] Table customers_schedules for model CustomersSchedule was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'customers_schedules',
+  'class' => 'CustomersSchedule',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('customers_sched...')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(3066): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\Model\Model.php(2979): Model->_findCount('before', Array)
+#3 D:\projetos\caixa\lib\Cake\Model\Model.php(2914): Model->buildQuery('count', Array)
+#4 D:\projetos\caixa\app\Controller\DashboardController.php(22): Model->find('count', Array)
+#5 [internal function]: DashboardController->admin_home()
+#6 D:\projetos\caixa\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DashboardController), Array)
+#7 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#9 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-19 01:16:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:16:19 Error: [MissingLayoutException] Layout file "D:\projetos\caixa\app\View\Layouts\admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projetos\\caixa\\app\\View\\Layouts\\admin.ctp',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(510): View->_getLayoutFileName('admin')
+#1 D:\projetos\caixa\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#2 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#3 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#4 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#5 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-09-19 01:16:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:21:42 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:18 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:19 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:19 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:19 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:19 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:19 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:19 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:24 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/logout
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:23:32 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin/
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:48 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:49 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:49 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:49 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:24:52 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:05 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:25:06 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:16 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:17 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:17 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:17 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:50 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:26:51 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:27:21 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:30:34 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:31:24 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:31:45 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:32:21 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:32:26 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:32:49 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:28 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/metro.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_responsive.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/font-awesome/css/font-awesome.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:30 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/css/style_default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:31 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/uniform/css/uniform.default.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:31 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:31 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:31 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/jquery.blockui.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:31 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:31 Error: [MissingControllerException] Controller class Admin-panelController could not be found.
+Exception Attributes: array (
+  'class' => 'Admin-panelController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin-panel/metronic/assets/js/app.js
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-19 01:45:35 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(DashboardController))
+#1 D:\projetos\caixa\lib\Cake\Controller\Component\AuthComponent.php(501): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 D:\projetos\caixa\lib\Cake\Controller\Component\AuthComponent.php(463): AuthComponent->constructAuthorize()
+#3 D:\projetos\caixa\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(DashboardController))
+#5 D:\projetos\caixa\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 D:\projetos\caixa\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#8 D:\projetos\caixa\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#11 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-19 01:45:36 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
