@@ -3684,3 +3684,119 @@ Request URL: /caixa/index.html
 Stack Trace:
 #0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-20 02:24:03 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-20 02:29:23 Error: [MissingControllerException] Controller class Forms.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Forms.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/forms.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-20 02:31:05 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:31:05 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-20 02:31:30 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:31:30 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-20 02:32:27 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:32:27 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-20 02:32:44 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:32:44 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-20 02:33:14 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:33:14 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-20 02:33:20 Error: [MissingControllerException] Controller class Tables.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Tables.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/tables.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-20 02:33:20 Error: [MissingControllerException] Controller class Tables.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Tables.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/tables.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-20 02:33:29 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:33:29 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-20 02:34:11 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:34:11 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-20 02:34:23 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 9]
+2014-09-20 02:34:23 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 9, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

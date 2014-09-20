@@ -64,10 +64,7 @@ class AppController extends Controller
 
     public function beforeRender()
     {
-         if($this->name == 'CakeError'){
-      $this->layout = 'error';
-   } 
-   
+         
         $this->set('bodyClass', sprintf(
             '%s %s',
             strtolower($this->name),
