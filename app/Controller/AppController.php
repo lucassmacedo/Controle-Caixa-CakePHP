@@ -1,34 +1,51 @@
 <?php
-
-
 App::uses('Controller', 'Controller');
 
-class AppController extends Controller {
-	 public $components = array(
+class AppController extends Controller
+{
+    public $components = array(
         'Session', 'RequestHandler', 'Auth', 'Email'
     );
 
-     // config the parans form twitter TwitterBootstrap
-	public $helpers = array(
-	        'Session',
-	        'Html' => array('className' => 'TwitterBootstrap.BootstrapHtml'),
-	        'Form' => array('className' => 'TwitterBootstrap.BootstrapForm'),
-	        'Paginator' => array('className' => 'TwitterBootstrap.BootstrapPaginator'),
-	        'Time',
-	        'Text',
-	        'Number',
-	        'Site',
-	    );
+    public $helpers = array(
+        'Html' => array('className' => 'TwitterBootstrap.BootstrapHtml'),
+        'Form' => array('className' => 'TwitterBootstrap.BootstrapForm'),
+        'Paginator' => array('className' => 'TwitterBootstrap.BootstrapPaginator'),
+        'Session',
+        'Time',
+        'Text',
+        'Number',
+        'Site',
+    );
 
-	public $titleForLayout = null;
+    public $titleForLayout = null;
     public $currentUser = array();
-    
-	public function beforeFilter() {
 
+    public function beforeFilter()
+    {
+        if (Configure::read('debug') == 0) {
+            if (
+                checkRoute('customers#add')
+                || checkRoute('customers#customer_login')
+                || checkRoute('checkout#customer_index')
+                || checkRoute('checkout#customer_process')
+                || checkRoute('checkout#customer_success')
+            ) {
+                if (!isset($_SERVER['HTTPS'])) {
+                    $this->_forceSecure();
+                }
+            }
+        }
+
+
+        // Configurações específicas para cada prefixo
         if ($this->isPrefix('admin')) {
+            
             $this->layout = 'admin';
         
-        } 
+        } elseif ($this->isPrefix('customer')) {
+        }
+
 
         // Configurações de login
         $this->_manageAuthConfigs();
@@ -40,7 +57,17 @@ class AppController extends Controller {
         return parent::beforeFilter();
     }
 
-    public function beforeRender() {
+    public function _forceSecure()
+    {
+        $this->redirect('https://'.env('SERVER_NAME').env('REQUEST_URI'));
+    }
+
+    public function beforeRender()
+    {
+         if($this->name == 'CakeError'){
+      $this->layout = 'error';
+   } 
+   
         $this->set('bodyClass', sprintf(
             '%s %s',
             strtolower($this->name),
@@ -50,20 +77,42 @@ class AppController extends Controller {
         $this->set(array(
             'isAdmin' => $this->isPrefix('admin'),
             'title_for_layout' => $this->titleForLayout,
-            'currentUser' => $this->currentUser
+            'currentUser' => $this->currentUser,
+            'estadosBrasil' => Configure::read('estadosBrasil'),
         ));
 
         return parent::beforeRender();
     }
 
+    // Check if is someone logged in
+    public function isAuthorized($user)
+    {
+        /*if (!isset($user['role'])) return false;
+
+        // Admin can access any action
+        if ($user['role'] === 'admin') {
+            return true;
+        }
+
+        // Customer can access any customer action
+        if ($this->isPrefix('customer') && $user['role'] === 'customer') {
+            return true;
+        }*/
+
+        // Default deny
+        //return false;
+        return true;
+    }
+
     // Verifiy that is a prefix
-    protected function isPrefix($prefix) {
+    protected function isPrefix($prefix)
+    {
         $params = $this->request->params;
         return isset($params['prefix']) && $params['prefix'] === $prefix;
     }
-    // Set the flash Type
-    protected function setFlash($message, $type = 'success') {
 
+    protected function setFlash($message, $type = 'success')
+    {
         $defaultMessages = array(
             'correctForm' => array('Corrija o formulário e tente novamente', 'warning'),
             'notFound' => array('Registro não encontrado', 'error'),
@@ -91,6 +140,20 @@ class AppController extends Controller {
             'params' => array('class' => 'error')
         ));
 
+
+
+        AuthComponent::$sessionKey = 'Auth.Customer';
+
+        $this->Auth->loginAction = array('controller' => 'customers', 'action' => 'login', 'customer' => true);
+        $this->Auth->loginRedirect = '/';
+        $this->Auth->logoutRedirect = '/';
+        $this->Auth->authenticate = array(
+            'Form' => array(
+                'userModel' => 'Customer',
+                'fields' => array('username' => 'email'),
+            ),
+        );
+
         if ($this->isPrefix('admin')) {
 
             AuthComponent::$sessionKey = 'Auth.Admin';
@@ -106,9 +169,13 @@ class AppController extends Controller {
             $this->Auth->allow('login');
 
         } elseif ($this->isPrefix('customer')) {
+
             $this->Auth->deny();
+
         } else {
+
             $this->Auth->allow();
+
         }
     }
 }

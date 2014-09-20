@@ -14,14 +14,14 @@ class UsersController extends AppController
     
     public function admin_login()
     {
-        $this->titleForLayout = 'Sistema Controle de Pacientes';
+        $this->titleForLayout = 'Área de Login';
         $this->layout = null;
         
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
                 return $this->redirect($this->Auth->redirect());
             } else {
-                $this->setFlash('Dados incorretos', 'warning');
+                $this->setFlash('Dados incorretos', 'danger');
             }
         }
     }
@@ -98,25 +98,5 @@ class UsersController extends AppController
         $this->redirect(array('action' => 'admin_index'));
     }
 
-    /* public function admin_login() {
-      $this->layout = 'login';
 
-      if ($this->request->is('post')) {
-      if ($this->Auth->login()) {
-      $this->Session->write($this->Auth->sessionKey, $this->Auth->user());
-      return $this->redirect($this->Auth->redirect());
-      } else {
-
-      $this->Session->setFlash('Dados incorretos', 'admin/alerts/inline', array('class' => 'error'), 'auth');
-      }
-      }
-
-      $this->titleForLayout = 'Painel de Controle | B3net';
-      }
-
-      public function admin_logout() {
-      $this->Session->delete($this->Auth->sessionKey);
-
-      $this->redirect($this->Auth->logout());
-      } */
 }
