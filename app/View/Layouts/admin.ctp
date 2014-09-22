@@ -17,6 +17,8 @@
     <?php echo $this->Html->css('sb-admin-2.css'); ?>
     <?php echo $this->Html->css('plugins/morris.css'); ?>
     <?php echo $this->Html->css('../font-awesome-4.1.0/css/font-awesome.min.css'); ?>
+    <?php echo $this->Html->css('../vendor/heapbox/themes/belize_hole/css/belize_hole.css'); ?>
+
     <?php echo $this->Html->css('style.css'); ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +50,7 @@
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="row">
-                             
+                             <?php echo $this->fetch('content'); ?>
                                
                             </div>
                             <!-- /.row -->
@@ -67,6 +69,7 @@
 
     <?php echo $this->element('sql_dump'); ?>
 </body>
+  <script type="text/javascript">var base_url = '<?php echo Router::url('/', true); ?>';</script>
 <?php echo $this->Html->script(array(
     'jquery-1.11.0.js',
     'bootstrap.min.js',
@@ -74,7 +77,9 @@
     'plugins/morris/raphael.min.js',
     //'plugins/morris/morris.min.js',
     //'plugins/morris/morris-data.js',
+    '../vendor/heapbox/src/jquery.heapbox-0.9.4.min.js',
     'sb-admin-2.js',
+    'main.js',
 
 )); ?>
   
