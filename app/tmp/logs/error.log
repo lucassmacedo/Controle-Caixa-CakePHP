@@ -4286,3 +4286,892 @@ Stack Trace:
 #3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-09-22 04:27:58 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 00:49:06 Error: [MissingActionException] Action ServiceController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServiceController',
+  'action' => 'add',
+)
+Request URL: /caixa/service/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServiceController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:49:17 Error: [MissingActionException] Action ServiceController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServiceController',
+  'action' => 'add',
+)
+Request URL: /caixa/service/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServiceController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:49:32 Error: [MissingActionException] Action ServiceController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServiceController',
+  'action' => 'index',
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServiceController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:49:59 Error: [MissingActionException] Action ServiceController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServiceController',
+  'action' => 'index',
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServiceController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:50:04 Error: [MissingActionException] Action ServiceController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServiceController',
+  'action' => 'index',
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServiceController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:52:40 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 00:52:43 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 00:52:46 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:52:49 Error: [MissingActionException] Action ServicesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'index',
+)
+Request URL: /caixa/services
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:59:26 Error: Fatal Error (4): syntax error, unexpected 'json_encode' (T_STRING) in [D:\projetos\caixa\app\Controller\ServicesController.php, line 8]
+2014-09-23 00:59:26 Error: [FatalErrorException] syntax error, unexpected 'json_encode' (T_STRING)
+Request URL: /caixa/services
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 8, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 8, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-23 00:59:28 Error: Fatal Error (4): syntax error, unexpected 'json_encode' (T_STRING) in [D:\projetos\caixa\app\Controller\ServicesController.php, line 8]
+2014-09-23 00:59:28 Error: [FatalErrorException] syntax error, unexpected 'json_encode' (T_STRING)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 8, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 8, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-23 00:59:32 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:59:43 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 00:59:59 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:00:29 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:00:31 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:00:47 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:01:23 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:01:25 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:01:47 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:02:04 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:02:13 Error: [MissingActionException] Action ServicesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'index',
+)
+Request URL: /caixa/services
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:02:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:02:27 Error: [MissingActionException] Action ServicesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'index',
+)
+Request URL: /caixa/services
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:02:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:06 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:09 Error: [MissingActionException] Action ServicesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'index',
+)
+Request URL: /caixa/services
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:03:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:12 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:03:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:22 Error: [MissingViewException] View file "D:\projetos\caixa\app\View\Services\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projetos\\caixa\\app\\View\\Services\\add.ctp',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#4 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-23 01:03:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:37 Error: [MissingActionException] Action ServicesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'index',
+)
+Request URL: /caixa/services
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:03:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:42 Error: [MissingActionException] Action ServicesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'index',
+)
+Request URL: /caixa/services
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:03:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:03:45 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:03:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:05:17 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:05:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:05:22 Error: [MissingActionException] Action ServicesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ServicesController',
+  'action' => 'add',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#2 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-23 01:05:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:10:07 Error: [MissingViewException] View file "D:\projetos\caixa\app\View\Services\admin_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projetos\\caixa\\app\\View\\Services\\admin_add.ctp',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#4 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-23 01:10:21 Error: [MissingViewException] View file "D:\projetos\caixa\app\View\Services\admin_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projetos\\caixa\\app\\View\\Services\\admin_add.ctp',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#4 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-23 01:10:27 Error: [MissingViewException] View file "D:\projetos\caixa\app\View\Services\admin_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projetos\\caixa\\app\\View\\Services\\admin_add.ctp',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#4 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-23 01:18:59 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(65): BootstrapFormHelper->create('Service', Array)
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:19:14 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(65): BootstrapFormHelper->create('Service', Array)
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:19:18 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(64): BootstrapFormHelper->create('Service', Array)
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:19:23 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(63): BootstrapFormHelper->create('Service')
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:19:28 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(63): BootstrapFormHelper->create('Service')
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:20:23 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(63): BootstrapFormHelper->create('Service', Array)
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:21:17 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(63): BootstrapFormHelper->create('Service', Array)
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:21:36 Error: [MissingTableException] Table services for model Service was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'services',
+  'class' => 'Service',
+  'ds' => 'default',
+)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('services')
+#1 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Service', 'fields')
+#4 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('Service', Array)
+#5 D:\projetos\caixa\app\View\Dashboard\admin_home.ctp(50): BootstrapFormHelper->create('Service', Array)
+#6 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#7 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#8 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#9 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#12 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 01:25:57 Error: Fatal Error (1): Class 'Banner' not found in [D:\projetos\caixa\app\View\Dashboard\admin_home.ctp, line 71]
+2014-09-23 01:25:57 Error: [FatalErrorException] Class 'Banner' not found
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Banner' ...', 'D:\\projetos\\cai...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Banner' ...', 'D:\\projetos\\cai...', 71, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Banner' ...', 'D:\\projetos\\cai...', 71, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-23 01:41:23 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [D:\projetos\caixa\app\View\Dashboard\admin_home.ctp, line 67]
+2014-09-23 01:41:23 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 67, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 67, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-23 01:44:49 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:45:06 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:45:31 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:45:31 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:45:44 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/admin/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:45:47 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:45:47 Error: [MissingControllerException] Controller class ServiceController could not be found.
+Exception Attributes: array (
+  'class' => 'ServiceController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/service/add
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-23 01:45:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-04 01:26:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+',
+  'enabled' => true,
+)
+Request URL: /caixa/login
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\projetos\caixa\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\projetos\caixa\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 D:\projetos\caixa\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 D:\projetos\caixa\lib\Cake\Model\Model.php(3551): Model->setSource('users')
+#5 D:\projetos\caixa\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 D:\projetos\caixa\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 D:\projetos\caixa\app\Plugin\TwitterBootstrap\View\Helper\BootstrapFormHelper.php(160): FormHelper->create('User', Array)
+#9 D:\projetos\caixa\app\View\Users\admin_login.ctp(41): BootstrapFormHelper->create('User', Array)
+#10 D:\projetos\caixa\lib\Cake\View\View.php(948): include('D:\\projetos\\cai...')
+#11 D:\projetos\caixa\lib\Cake\View\View.php(910): View->_evaluate('D:\\projetos\\cai...', Array)
+#12 D:\projetos\caixa\lib\Cake\View\View.php(471): View->_render('D:\\projetos\\cai...')
+#13 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#14 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#15 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#16 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-10-04 03:42:48 Error: [MissingViewException] View file "D:\projetos\caixa\app\View\Services\admin_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projetos\\caixa\\app\\View\\Services\\admin_add.ctp',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#4 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-04 03:43:50 Error: [MissingViewException] View file "D:\projetos\caixa\app\View\Services\admin_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projetos\\caixa\\app\\View\\Services\\admin_add.ctp',
+)
+Request URL: /caixa/services/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\projetos\caixa\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\projetos\caixa\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#4 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-04 04:05:16 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-04 04:05:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-04 04:16:24 Error: Fatal Error (4): syntax error, unexpected ')' in [D:\projetos\caixa\app\Controller\DashboardController.php, line 11]
+2014-10-04 04:16:24 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 11, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 11, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-04 12:58:30 Error: Fatal Error (1): Call to a member function input() on a non-object in [D:\projetos\caixa\app\View\Elements\moviments.ctp, line 31]
+2014-10-04 12:58:30 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\projetos\\cai...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\projetos\\cai...', 31, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\projetos\\cai...', 31, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-04 13:02:22 Error: Fatal Error (1): Call to a member function input() on a non-object in [D:\projetos\caixa\app\View\Elements\moviments.ctp, line 40]
+2014-10-04 13:02:22 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /caixa/
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\projetos\\cai...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\projetos\\cai...', 40, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\projetos\\cai...', 40, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-04 13:14:39 Error: Fatal Error (4): syntax error, unexpected ';' in [D:\projetos\caixa\app\Controller\MovementsController.php, line 12]
+2014-10-04 13:14:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /caixa/admin/movements/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 12, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 12, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-04 13:19:35 Error: Fatal Error (4): syntax error, unexpected '{' in [D:\projetos\caixa\app\Model\Movement.php, line 22]
+2014-10-04 13:19:35 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /caixa/admin/movements/add
+Stack Trace:
+#0 D:\projetos\caixa\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\projetos\\cai...', 22, Array)
+#2 D:\projetos\caixa\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\projetos\\cai...', 22, Array)
+#3 D:\projetos\caixa\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-07 02:30:27 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/index.html
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 02:30:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /caixa/css/cake.generic.css
+Stack Trace:
+#0 D:\projetos\caixa\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

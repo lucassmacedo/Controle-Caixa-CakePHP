@@ -21,50 +21,17 @@ class AppController extends Controller
     public $titleForLayout = null;
     public $currentUser = array();
 
-    public function beforeFilter()
-    {
-        if (Configure::read('debug') == 0) {
-            if (
-                checkRoute('customers#add')
-                || checkRoute('customers#customer_login')
-                || checkRoute('checkout#customer_index')
-                || checkRoute('checkout#customer_process')
-                || checkRoute('checkout#customer_success')
-            ) {
-                if (!isset($_SERVER['HTTPS'])) {
-                    $this->_forceSecure();
-                }
-            }
-        }
+    public function beforeFilter() {
 
-
-        // Configurações específicas para cada prefixo
-        if ($this->isPrefix('admin')) {
-            
-            $this->layout = 'admin';
-        
-        } elseif ($this->isPrefix('customer')) {
-        }
-
-
-        // Configurações de login
+        if ($this->isPrefix('admin'))  $this->layout = 'admin';
         $this->_manageAuthConfigs();
-
-
         $this->currentUser = $this->Auth->user();
-
-
         return parent::beforeFilter();
     }
 
-    public function _forceSecure()
-    {
-        $this->redirect('https://'.env('SERVER_NAME').env('REQUEST_URI'));
-    }
 
-    public function beforeRender()
-    {
-         
+    public function beforeRender() {
+        $this->_setDate();
         $this->set('bodyClass', sprintf(
             '%s %s',
             strtolower($this->name),
@@ -81,35 +48,31 @@ class AppController extends Controller
         return parent::beforeRender();
     }
 
-    // Check if is someone logged in
-    public function isAuthorized($user)
-    {
-        /*if (!isset($user['role'])) return false;
+    // get actualy month and year or passed param year and month
+    private function _setDate(){
+        $day_day =  date('d');
+        $month_day = !empty($this->params->query['mes']) ? $this->params->query['mes'] : date('m');
+        $year_day = !empty($this->params->query['ano']) ? $this->params->query['ano'] : date('Y');
 
-        // Admin can access any action
-        if ($user['role'] === 'admin') {
-            return true;
-        }
+        $this->set(array(
+            'month_day' => $month_day,
+            'year_day' => $year_day,
+            'day_day' => $day_day,
+        ));
+    }
 
-        // Customer can access any customer action
-        if ($this->isPrefix('customer') && $user['role'] === 'customer') {
-            return true;
-        }*/
 
-        // Default deny
-        //return false;
+    public function isAuthorized($user) {
         return true;
     }
 
-    // Verifiy that is a prefix
-    protected function isPrefix($prefix)
-    {
+
+    protected function isPrefix($prefix) {
         $params = $this->request->params;
         return isset($params['prefix']) && $params['prefix'] === $prefix;
     }
 
-    protected function setFlash($message, $type = 'success')
-    {
+    protected function setFlash($message, $type = 'success')  {
         $defaultMessages = array(
             'correctForm' => array('Corrija o formulário e tente novamente', 'warning'),
             'notFound' => array('Registro não encontrado', 'error'),
@@ -125,6 +88,7 @@ class AppController extends Controller
             array('class' => $type)
         );
     }
+
 
 
     private function _manageAuthConfigs(){

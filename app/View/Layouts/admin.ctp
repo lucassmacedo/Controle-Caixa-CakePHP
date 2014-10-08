@@ -7,9 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>
-        
-    </title>
+    <title><?php echo $title_for_layout ?></title>
 
     <?php echo $this->Html->css('bootstrap.min'); ?>
     <?php echo $this->Html->css('plugins/metisMenu/metisMenu.min.css'); ?>
@@ -75,7 +73,7 @@
     'bootstrap.min.js',
     'plugins/metisMenu/metisMenu.min.js',
     'plugins/morris/raphael.min.js',
-    //'plugins/morris/morris.min.js',
+    'jquery.mask.min.js',
     //'plugins/morris/morris-data.js',
     '../vendor/heapbox/src/jquery.heapbox-0.9.4.min.js',
     'sb-admin-2.js',

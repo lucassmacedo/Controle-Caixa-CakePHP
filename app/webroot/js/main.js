@@ -1,3 +1,6 @@
+
+
+
 // get params for GET
 $.urlParam = function(name){
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
@@ -16,7 +19,7 @@ var year = date.getFullYear();
 
 $( document ).ready(function() {
 
-
+	 $('*[data-mask-data]').mask('99/99/9999');
 
 	$("#ano").heapbox({
 		'onChange': function(ano){
@@ -39,6 +42,52 @@ $( document ).ready(function() {
 
 	$('#ano').on('change', function() {
 	  alert($(this).val()); 
+	});
+
+	$('#ServiceAdminHomeForm').on('submit', function(event) {
+        
+		var $form = $(this);
+        var $target = $($form.attr('data-target'));
+      
+		  $.ajax({
+            type: $form.attr('method'),
+            url: $form.attr('action'),
+            data: $form.serialize(),
+ 
+            success: function(data, status) {
+            	$form.find('.mod').html('');
+
+               setTimeout(function(){
+		      	$form.find('.mod').html(jQuery.parseJSON(data));
+		  		}, 130);
+
+               $form[0].reset();
+            }
+        });
+		event.preventDefault();
+	});
+
+	$('#MovementAdminHomeForm').on('submit', function(event) {
+        
+		var $form = $(this);
+        var $target = $($form.attr('data-target'));
+      
+		  $.ajax({
+            type: $form.attr('method'),
+            url: $form.attr('action'),
+            data: $form.serialize(),
+ 
+            success: function(data, status) {
+            	$form.find('.mod').html('');
+
+               setTimeout(function(){
+		      	$form.find('.mod').html(jQuery.parseJSON(data));
+		  		}, 130);
+
+               $form[0].reset();
+            }
+        });
+		event.preventDefault();
 	});
 
 
